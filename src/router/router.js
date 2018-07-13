@@ -15,7 +15,7 @@ import musicsRouter from '../modules/musics/router';
 Vue.use(VueRouter);
 
 export default new VueRouter({
-  mode: 'history',
+  mode: 'hash',
   base: __dirname,
   linkActiveClass: 'active',  //a的切换样式
   routes: [
